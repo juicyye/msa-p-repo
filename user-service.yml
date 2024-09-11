@@ -1,9 +1,9 @@
-spring: 
+spring:
   datasource:
-   driver-class-name: org.h2.Driver
-   url: jdbc:h2:mem:testdb
-   username: '{cipher}AYA2rWQY0HXv3amj8Rd5dixirUZ6AAaZEZs4VMKvXr6ljlPuRWDz2BSyEYYcG7GrPpp3UKkfUMDxb6AWE/k/tNqO9ontwYD1JX+fhntzaSuPvY5T02OhVKm414lE0yXOeHGZLCa62z317dA+kNWK0J0dfJk1h6pZ3QmCPZcoH1JzkkZgzOC5gMrhgsc9evzFRbEp7LaCycvdEQldoJm/j3vSrWb3MbVISP5+9dUQ6z3XVVTPMk4UcMfXVvxA/cMMjLc9psVTL+fWxaDYQdSAe3DIqyT83xv3Gu9WD2Ii9Hr6Ptu+sf5kcfZWu/8hdFP2+FGn89SrIHBPpWRhHPp69gHPUyos5k7IOBSOTGkMVcW/TyQKdxThwQUNdEBtUQA8yQnR0og/Val84YufaY3TeSb/EIpPbqeYFVpECgth8vvp/dUle+B8EZGag+sqAr04f4AzrehG70tReFJvg5Y7EfUnK0vXQKYR2QdDh4rL39wA0XlxItVy+7+U24vYn1L+NUyIF3jme4a0BFL8G5rM//+Bt3ruBuIXi7RcT/omwbaMwA=='
-   password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gongsimchae?serverTimezone=UTC&characterEncoding=UTF-8
+    username: test
+    password: test123!
   
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
