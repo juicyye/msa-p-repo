@@ -6,4 +6,4 @@ spring:
    password:
   
 order_service:
-  url: http://order-service/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders
