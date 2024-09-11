@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/toymsa?serverTimezone=UTC&characterEncoding=UTF-8
+    username: test
+    password: '{cipher}AYBksO1wDiv3342PLKQMyE+Zmh/RS82CgKlCpfpKCAqASEK1pzyA/UbUlg+WRoNCpgtN258o48ZK/BD5PMEZZljs8hgL+jr9U5EPqsKp1/063nzFjaBX+HJfgfc61EDb5M5+u6mDU+xUyuDSESiLBc1xZmdedjvmD6YlsYCWjM3B5ixHTfsdkasRX8GiYoXN/cCcLlxGHMxHCG7O2G3QvSJjwckazcR/Yay/x4EOJq4GbYV2vNE7E89egnEWR70b0WcOAo53iFZcxmg7ywjFYW46gfyTiz8fGGTWT18XYZGoJ1RIxHVGZUl0sAt48ZG4SrMRPDfcmUnJv9IhNax3YakJ0HSchJyWBJn/VaA2weTr9oHv1FvjNV07IOPEacyQDp2k/OZefrIECt8Xc6DTMT3zvqQ4W7OGC7/rmz8KRD2gMr6bVnEvbBNG9WoECgC60Q7BFxbSp7zk6NoqHeiYSnePv5et8uQam1huJnFIZe0QYJKaA8C7H9Mo/wPrXxtiNhMcN6iL4Nutyhuaxh8lHErVtblGLt+yVrolxzPr+8op2g=='
